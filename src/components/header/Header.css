@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    
+ 
+}
+.container_items{
+    display: flex;
+   
+}
+.container_items > a{
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+}
