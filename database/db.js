@@ -2,8 +2,9 @@
 
 
 
-export const Connection = async(username, password) =>{
-    const URL =`mongodb+srv://${username}:${password}@blog-app.inrzqsb.mongodb.net/?retryWrites=true&w=majority`;
+export const Connection = async(URL) =>{
+   
+  
     try {
          await mongoose.connect(URL, {useNewUrlParser:true});
          console.log("DB connected kezi")
